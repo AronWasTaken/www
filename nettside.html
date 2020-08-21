@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+              box-sizing: border-box;  
+            }
+        .header{
+            padding: 60px;
+            text-align: center;
+            justify-content: space-around;
+            background: navy;
+            color: white;
+
+        }
+        .navbar{
+            display: flex;
+            background-color: black;
+
+        }
+        .navbar a{
+            color: white;
+            padding: 10px;
+            text-align: center;
+            background: black;
+        }
+        .navbar a:hover {
+            background-color: gray;
+            color: black;
+
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        .main {
+            flex: 70%;
+            background-color: rgb(37, 37, 37);
+            padding: 20px;
+            color: white;
+        }
+        .side {
+            flex: 30%;
+            background-color: rgb(49, 49, 49);
+            padding: 20px;
+            color: white;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Min Nettside</h1>
+        <p>Det er en nettside</p>
+
+    </div>
+    <div class="navbar">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </div>
+    <div class="row">
+        <div class="main">
+            <h1>HOVEDTEKSTEN</h1>
+            <p>Her går hovedteksten</p>
+            <img src="https://i.redd.it/fxuqiz7z0l331.jpg" alt="widepeepohappy">
+
+        </div>
+        <div class="side">
+            <h1>SIDETEKST</h1>
+            <p>Her går sideteksten</p>
+            <img src="https://i.imgur.com/sPXlV30.png" alt="peepohappy" style="width:200px; height:200px;">
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <h1>Her går andre ting</h1>
+    </div>
+    
+</body>
+</html>
